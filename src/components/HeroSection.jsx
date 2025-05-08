@@ -1,7 +1,7 @@
 import React from 'react';
 
 const HeroSection = () => {
-  const backgroundImage = 'https://images.pexels.com/photos/1440504/pexels-photo-1440504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; // Replace with the actual image link
+  const backgroundImage = 'https://images.pexels.com/photos/18428283/pexels-photo-18428283/free-photo-of-3d-printer.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; // Replace with the actual image link
 
   return (
     <section
