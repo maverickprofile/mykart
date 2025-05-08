@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.product-container {
+    padding: 1rem;
+  }
+  
+  .filter-bar {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .filter-bar input,
+  .filter-bar select {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .product-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    position: relative;
+  }
+  
+  .badge {
+    background-color: #eee;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .popular {
+    color: gold;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
